@@ -5,6 +5,8 @@ import java.util.Collections;
 
 public class Ejercicio_4 {
     public static void main(String[] args) {
+        // Escribir un programa que pregunte al usuario los números ganadores de la lotería primitiva,
+        // los almacene en una lista y los muestre por pantalla ordenados de menor a mayor.
         Scanner sc = new Scanner(System.in);
         List<Integer> loteria = new ArrayList<>();
         for(int i=0; i < 6; i++){
